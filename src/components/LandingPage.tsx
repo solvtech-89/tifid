@@ -5,9 +5,11 @@ export default function LandingPage() {
       <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-lg shadow-sm border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-xl flex items-center justify-center bg-gradient-to-br from-[#24B6B0] to-[#0E9E9A] text-white font-bold text-lg shadow-lg shadow-[#24B6B0]/40 ring-2 ring-[#24B6B0]/20">
-              TIF
-            </div>
+            <img
+              src="/logo-tifid.png"
+              alt="TIF logo"
+              className="w-12 h-12 rounded-xl object-cover shadow-lg ring-2 ring-[#24B6B0]/20"
+            />
             <div>
               <h1 className="text-lg font-bold text-gray-900">TIF Community</h1>
               <p className="text-xs text-gray-500">
@@ -128,9 +130,11 @@ export default function LandingPage() {
                     <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1vcGFjaXR5PSIwLjA1IiBzdHJva2Utd2lkdGg9IjEiLz48L3BhdHRlcm4+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JpZCkiLz48L3N2Zz4=')] opacity-40"></div>
                     <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
                     <div className="relative z-10 text-center space-y-3">
-                      <div className="text-6xl font-black drop-shadow-lg">
-                        TIF
-                      </div>
+                      <img
+                        src="/logo-tifid.png"
+                        alt="TIF logo"
+                        className="w-24 h-24 mx-auto rounded-full object-cover drop-shadow-lg"
+                      />
                       <div className="text-2xl font-semibold">Community</div>
                       <div className="text-sm opacity-90 font-medium">
                         Teknik Informatika Indonesia
@@ -400,9 +404,11 @@ export default function LandingPage() {
           <div className="grid md:grid-cols-4 gap-12 mb-12">
             <div className="space-y-5">
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-xl flex items-center justify-center bg-gradient-to-br from-[#24B6B0] to-[#0E9E9A] text-white font-bold shadow-lg">
-                  TIF
-                </div>
+                <img
+                  src="/logo-tif.png"
+                  alt="TIF logo"
+                  className="w-12 h-12 rounded-xl object-cover shadow-lg"
+                />
                 <div className="font-black text-xl text-white">
                   TIF Community
                 </div>
