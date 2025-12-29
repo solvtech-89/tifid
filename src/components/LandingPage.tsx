@@ -405,7 +405,7 @@ export default function LandingPage() {
             <div className="space-y-5">
               <div className="flex items-center gap-3">
                 <img
-                  src="/logo-tif.png"
+                  src="/logo-tifid.png"
                   alt="TIF logo"
                   className="w-12 h-12 rounded-xl object-cover shadow-lg"
                 />
