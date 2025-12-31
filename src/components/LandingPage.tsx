@@ -155,7 +155,7 @@ export default function LandingPage() {
                       kami.
                     </p>
                     <ul className="space-y-3">
-                      <li className="group flex items-start justify-between p-4 rounded-xl bg-gradient-to-br from-[#24B6B0]/5 to-white border-2 border-gray-200 hover:border-[#24B6B0] hover:shadow-lg transition-all duration-200 cursor-pointer">
+                      <li className="group flex items-center justify-between p-4 rounded-xl bg-gradient-to-br from-[#24B6B0]/5 to-white border-2 border-gray-200 hover:border-[#24B6B0] hover:shadow-lg transition-all duration-200 cursor-pointer">
                         <div className="flex gap-4">
                           <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-[#24B6B0] to-[#0E9E9A] flex flex-col items-center justify-center text-white font-bold text-xs shadow-lg group-hover:scale-110 transition-transform">
                             <span className="text-base">22</span>
@@ -170,11 +170,11 @@ export default function LandingPage() {
                             </div>
                           </div>
                         </div>
-                        <button className="text-sm text-[#24B6B0] font-bold hover:underline whitespace-nowrap">
+                        <button className="text-sm text-[#24B6B0] font-bold hover:underline whitespace-nowrap px-2 py-1">
                           Register →
                         </button>
                       </li>
-                      <li className="group flex items-start justify-between p-4 rounded-xl bg-gradient-to-br from-[#24B6B0]/5 to-white border-2 border-gray-200 hover:border-[#24B6B0] hover:shadow-lg transition-all duration-200 cursor-pointer">
+                      <li className="group flex items-center justify-between p-4 rounded-xl bg-gradient-to-br from-[#24B6B0]/5 to-white border-2 border-gray-200 hover:border-[#24B6B0] hover:shadow-lg transition-all duration-200 cursor-pointer">
                         <div className="flex gap-4">
                           <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-[#24B6B0] to-[#0E9E9A] flex flex-col items-center justify-center text-white font-bold text-xs shadow-lg group-hover:scale-110 transition-transform">
                             <span className="text-base">05</span>
@@ -189,7 +189,7 @@ export default function LandingPage() {
                             </div>
                           </div>
                         </div>
-                        <button className="text-sm text-[#24B6B0] font-bold hover:underline whitespace-nowrap">
+                        <button className="text-sm text-[#24B6B0] font-bold hover:underline whitespace-nowrap px-2 py-1">
                           Register →
                         </button>
                       </li>
