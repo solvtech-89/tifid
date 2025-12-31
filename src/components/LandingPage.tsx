@@ -260,7 +260,7 @@ export default function LandingPage() {
             <div className="grid md:grid-cols-2 gap-16 items-center">
               <div className="space-y-8">
                 <h3 className="text-5xl font-black text-gray-900 leading-tight">
-                  Kenapa bergabung dengan TIF Community?
+                  Kenapa bergabung dengan TIFID Community?
                 </h3>
                 <div className="space-y-6">
                   <div className="flex gap-5 group cursor-pointer">
