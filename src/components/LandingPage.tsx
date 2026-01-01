@@ -421,39 +421,58 @@ export default function LandingPage() {
               </p>
             </div>
             <div>
-              <h4 className="font-black text-white mb-5 text-lg">Community</h4>
+              <h4 className="font-black text-white mb-5 text-lg">
+                Kontak Kami
+              </h4>
               <ul className="space-y-3 text-sm">
-                <li>
-                  <a
-                    href="#"
-                    className="hover:text-[#24B6B0] transition-colors flex items-center gap-2"
+                <li className="flex items-start gap-3">
+                  <svg
+                    className="w-5 h-5 text-[#24B6B0] flex-shrink-0"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
                   >
-                    <span>→</span> About Us
+                    <path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                  </svg>
+                  <a
+                    href="mailto:Teknikinformatikaindonesia@gmail.com"
+                    className="text-gray-300 hover:text-[#24B6B0] transition-colors"
+                  >
+                    Teknikinformatikaindonesia@gmail.com
                   </a>
                 </li>
-                <li>
-                  <a
-                    href="#"
-                    className="hover:text-[#24B6B0] transition-colors flex items-center gap-2"
+                <li className="flex items-start gap-3">
+                  <svg
+                    className="w-5 h-5 text-[#24B6B0] flex-shrink-0"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
                   >
-                    <span>→</span> Events
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M3 5.5A2.5 2.5 0 015.5 3h1A2.5 2.5 0 019 5.5v1A2.5 2.5 0 016.5 9h-1A2.5 2.5 0 013 6.5v-1zM15 3h3a2 2 0 012 2v3"
+                    />
+                  </svg>
+                  <a
+                    href="tel:+6281261828159"
+                    className="text-gray-300 hover:text-[#24B6B0] transition-colors"
+                  >
+                    +62 812-6182-8159
                   </a>
                 </li>
-                <li>
-                  <a
-                    href="#"
-                    className="hover:text-[#24B6B0] transition-colors flex items-center gap-2"
+                <li className="flex items-start gap-3">
+                  <svg
+                    className="w-5 h-5 text-[#24B6B0] flex-shrink-0"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
                   >
-                    <span>→</span> Blog
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="hover:text-[#24B6B0] transition-colors flex items-center gap-2"
-                  >
-                    <span>→</span> Forum
-                  </a>
+                    <path d="M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm0 9.5A2.5 2.5 0 1112 6a2.5 2.5 0 010 5.5z" />
+                  </svg>
+                  <span className="text-gray-300">Riau, Indonesia</span>
                 </li>
               </ul>
             </div>
