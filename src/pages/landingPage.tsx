@@ -1,8 +1,13 @@
+import Benefits from "../layout/benefits";
+import CallToAction from "../layout/callToAction";
+import Footer from "../layout/footer";
+import Header from "../layout/header";
+
 export default function LandingPage() {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900 antialiased">
       {/* Header */}
-      <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-lg shadow-sm border-b border-gray-200">
+      {/* <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-lg shadow-sm border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3 min-w-0">
             <img
@@ -48,7 +53,8 @@ export default function LandingPage() {
             </button>
           </div>
         </div>
-      </header>
+      </header> */}
+      <Header />
 
       <main>
         {/* Hero Section */}
@@ -59,7 +65,7 @@ export default function LandingPage() {
             <div className="absolute bottom-1/4 -right-48 w-96 h-96 bg-[#0E9E9A]/10 rounded-full blur-3xl"></div>
           </div>
 
-          <div className="max-w-7xl mx-auto px-6 py-20 md:py-28 grid md:grid-cols-2 gap-16 items-center relative">
+          <div className="max-w-6xl mx-auto px-1 py-10 md:py-28 grid md:grid-cols-2 gap-16 items-center relative">
             <div className="space-y-8">
               <div className="inline-block animate-bounce">
                 <span className="px-4 py-2 rounded-full bg-[#24B6B0]/15 text-[#0E9E9A] text-sm font-bold border border-[#24B6B0]/30">
@@ -72,7 +78,7 @@ export default function LandingPage() {
                   berbagi, belajar, dan berkolaborasi
                 </span>
               </h2>
-              <p className="text-xl md:text-2xl text-gray-600 leading-relaxed font-light">
+              <p className="text-lg md:text-2xl text-gray-600 leading-relaxed font-light">
                 Bergabunglah dengan jaringan profesional, mahasiswa, dan
                 pengembang untuk proyek, diskusi, dan acara teknologi di seluruh
                 Indonesia.
@@ -255,7 +261,7 @@ export default function LandingPage() {
         </section>
 
         {/* Benefits Section */}
-        <section className="bg-gradient-to-br from-gray-50 to-white py-24">
+        {/* <section className="bg-gradient-to-br from-gray-50 to-white py-24">
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid md:grid-cols-2 gap-16 items-center">
               <div className="space-y-8">
@@ -357,10 +363,11 @@ export default function LandingPage() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
+        <Benefits />
 
         {/* CTA Section */}
-        <section
+        {/* <section
           id="join"
           className="relative overflow-hidden bg-gradient-to-r from-[#24B6B0] via-[#0E9E9A] to-[#24B6B0] py-28"
         >
@@ -397,11 +404,12 @@ export default function LandingPage() {
               ✨ Gratis selamanya · No credit card required
             </p>
           </div>
-        </section>
+        </section> */}
+        <CallToAction />
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-gray-300">
+      {/* <footer className="bg-gray-900 text-gray-300">
         <div className="max-w-7xl mx-auto px-6 py-16">
           <div className="grid md:grid-cols-4 gap-12 mb-12">
             <div className="space-y-5">
@@ -566,7 +574,8 @@ export default function LandingPage() {
             </div>
           </div>
         </div>
-      </footer>
+      </footer> */}
+      <Footer />
     </div>
   );
 }
